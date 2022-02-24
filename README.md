@@ -1,4 +1,4 @@
-# Sky (default) WonderCMS theme 2022
+# NAT-theme, based on Sky, the default WonderCMS theme (2022)
 Fully responsive.
 
 ## Preview

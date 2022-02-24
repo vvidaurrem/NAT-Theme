@@ -45,7 +45,6 @@
 					<ul class="menu">
 						<!-- Menu -->
 						<?= $Wcms->menu() ?>
-
 					</ul>
 				</nav>
 			</div>
@@ -56,7 +55,6 @@
 				<div class="inner">
 					<!-- Main content for each page -->
 					<?= $Wcms->page('content') ?>
-
 				</div>
 			</section>
 
@@ -64,7 +62,6 @@
 					<div class="inner">
 						<!-- Static editable block, same on each page -->
 						<?= $Wcms->block('subside') ?>
-
 					</div>
 			</section>
 		</div>
@@ -73,7 +70,6 @@
 			<div class="inner">
 				<!-- Footer -->
 				<?= $Wcms->footer() ?>
-
 			</div>
 		</footer>
 

@@ -285,43 +285,33 @@ input::-moz-focus-inner {
 			outline: 0;
 			padding: 15px;
 			border-radius: 10px;
-			width: 300px
-		}
+			width: 300px}
 
 /* Wrapper */
 	.wrapper {
-		position: relative
-	}
+		position: relative}
+
 		.wrapper > .inner {
 			width: 100%;
-			padding: 5em 4em 2em 4em
-		}
+			padding: 5em 4em 2em 4em}
+			
 			@media screen and (max-width: 1680px) {
 				footer > .inner {
-					padding: 2em 4em 2em 4em !important
-				}
-			}
+					padding: 2em 4em 2em 4em !important}}
 			@media screen and (max-width: 736px) {
-
 				.wrapper > .inner {
-					padding: 2em 2em 2em 2em
-				}
+					padding: 2em 2em 2em 2em}
 				footer > .inner {
-					padding: 2em 2em 2em 2em !important
-				}
-			}
+					padding: 2em 2em 2em 2em !important}}
+
 		.wrapper.style2 {
-			background-color: #5052b5
-		}
+			background-color: #5052b5}
 		
 		.wrapper.fullscreen {
-			min-height: calc(87vh - 2.5em)
-		}
+			min-height: calc(87vh - 2.5em)}
 			@media screen and (max-width: 736px) {
-
 				.wrapper.fullscreen {
-					min-height: calc(40vh - 5.5em)
-				}
+					min-height: calc(40vh - 5.5em)}
 			}
 
 /* Wrapper */
@@ -465,29 +455,24 @@ input::-moz-focus-inner {
 		}
 
 /* Intro */
-		#intro p {
-			font-size: 1.25em
-		}
-			@media screen and (max-width: 736px) {
-				#intro p {
-					font-size: 1em
-				}
-			}
+	#intro p {
+		font-size: 1.25em}
+		
+	@media screen and (max-width: 736px) {
+		#intro p {font-size: 1em}
+	}
 
 /* Footer */
 	footer {
-		text-align: right
-	}
+		text-align: right}
 
 /* Submenus */
 	.subPageDropdown a {
-		border: 0 !important
-	}
+		border: 0 !important}
 			
 	.subPageDropdown ul {
 		margin: 0;
-		padding-left: 0
-	}
+		padding-left: 0}
 
 	.subPageDropdown li {
 		color: #fff;
@@ -496,25 +481,20 @@ input::-moz-focus-inner {
 		position: relative;
 		padding: 0 1em 0 1em;
 		text-decoration: none;
-		transition-duration: 0.5s
-	}
+		transition-duration: 0.5s}
 		
 	#topMenu li a {
-		color: rgba(255, 255, 255, 0.8)
-	}
+		color: rgba(255, 255, 255, 0.8)}
 
 	#topMenu li:hover,
 	#topMenu li:focus-within {
-		cursor: pointer
-	}
+		cursor: pointer}
 
 	#topMenu li:focus-within a {
-		outline: none
-	}
+		outline: none}
 
 	#topMenu .nav-item {
-		margin-top: 5px
-	}
+		margin-top: 5px}
 
 	ul.subPageDropdown {
 		visibility: hidden;
@@ -522,8 +502,7 @@ input::-moz-focus-inner {
 		position: absolute;
 		margin-top: 10px;
 		display: none;
-		padding-left: 10px !important
-	}
+		padding-left: 10px !important}
 
 	#topMenu ul li:hover > ul,
 	#topMenu ul li:focus-within > ul,
@@ -531,27 +510,22 @@ input::-moz-focus-inner {
 	#topMenu ul li ul:focus {
 		visibility: visible;
 		opacity: 1;
-		display: block
-	}
+		display: block}
 
 	#topMenu ul li ul li {
 		clear: both;
 		text-align: left;
 		background-color: rgba(0, 0, 0, 0.30);
-		white-space: nowrap
-	}
+		white-space: nowrap}
 
 	/* Submenus dropdown arrow */
 	.menu li > a:after {
 		content: ' ▼';
-		font-weight: bold
-	}
+		font-weight: bold}
 
 	.menu > li > a:after {
 		content: ' ▼';
-		font-weight: bold
-	}
+		font-weight: bold}
 
 	.menu li > a:only-child:after {
-		content: ''
-	}
+		content: ''}

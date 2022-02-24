@@ -36,7 +36,6 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline
-	
 }
 
 html, body {
@@ -46,6 +45,7 @@ html, body {
 	font-family: 'Catamaran';
 	color: #fff !important
 }
+
 .actions li {
 	list-style: none
 }

@@ -4,7 +4,7 @@
         "NAT-theme": {
             "name": "NAT-Theme",
             "repo": "https://github.com/vvidaurrem/NAT-Theme/tree/master",
-            "zip": "https://github.com/vvidaurrem/NAT-Theme/archive/master.zip",
+            "zip": "https://github.com/vvidaurrem/NAT-Theme.git",
             "summary": "Default WonderCMS theme (2022). Theme works without Bootstrap and jQuery.",
             "version": "0.0.1",
             "image": "https://raw.githubusercontent.com/robiso/sky/master/preview.jpg"

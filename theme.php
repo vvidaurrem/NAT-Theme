@@ -23,7 +23,6 @@
 		<!-- Website and page title -->
 		<title>
 			<?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?>
-
 		</title>
 
 		<!-- Admin CSS -->
@@ -75,6 +74,5 @@
 
 		<!-- Admin JavaScript. More JS libraries can be added below -->
 		<?= $Wcms->js() ?>
-
 	</body>
 </html>

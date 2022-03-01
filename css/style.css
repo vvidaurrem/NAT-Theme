@@ -67,10 +67,12 @@ input::-moz-focus-inner {
 /* Type */
 	body, select, textarea {
 		color: rgba(255, 255, 255, 0.8);
-		font-size: 16.5pt;
+		font-size: 14px; /*fallback for older browsers*/
+		font-size: clamp(1rem, 4vw + 1rem, 2rem);
 		font-weight: normal;
 		line-height: 1.75
 	}
+	/*	try replacing with clamp() above
 		@media screen and (max-width: 1680px) {
 			body, input, select, textarea {
 				font-size: 13pt
@@ -85,7 +87,7 @@ input::-moz-focus-inner {
 			body, input, select, textarea {
 				font-size: 11pt
 			}
-		}
+		}*/
 
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
